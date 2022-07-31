@@ -1,0 +1,22 @@
+{
+  "name": "eat-well-parser",
+  "version": "1.0.0",
+  "description": "Pol's crazy trial on the health notion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "author": "Pol",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.1.1",
+    "@testing-library/cypress": "^8.0.3",
+    "dotenv": "^16.0.1",
+    "puppeteer": "^15.5.0",
+    "uuidv4": "^6.2.13"
+  }
+}
