@@ -27,8 +27,6 @@ describe('our tour to eat-well', () => {
   it('go to the page', () => {
     cy.visit(`${Cypress.env('TEST_URL')}`);
     cy.wait(1000);
-    cy.get('button#onetrust-accept-btn-handler').click();
-
 
     // Get cover
     cy.get('.inner-container.js-inner-container.image-overlay > img').then(node => {
