@@ -185,7 +185,7 @@ describe('our tour to eat-well', () => {
     (async () => {
       const response = await notion.pages.create(page);
       console.log('RESPONSES', response);
-
+      cy.log(response);
     })();
   })
 })
